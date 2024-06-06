@@ -11,4 +11,5 @@ test_job:
   stage: test
   script:
     - echo "Running tests..."
-    - ./run_tests.sh
+    - chmod +x script/run_tests.sh
+    - ./script/run_tests.sh
